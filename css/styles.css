@@ -1,0 +1,43 @@
+body{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 126, 252);
+    color: white;
+    padding: 0 20px;
+}
+
+section{
+    padding: 0 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0 5px;
+}
+
+.erreur{
+    color: tomato;
+}
+
+img{
+    width: 200px;
+}
+
+.ads{
+    margin: 30px;
+    border: rgba(245, 245, 245, 0.904) solid 1px;
+    border-radius: 30px;
+    padding: 0 20px;
+}
+
+#region{
+    display: flex;
+}
