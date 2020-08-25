@@ -14,6 +14,7 @@ define('URL', 'http://localhost/CRUD');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Annonces</title>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <link rel="stylesheet" href="<?=URL.'/css/styles.css'?>">
 </head>
 <body>
@@ -24,7 +25,7 @@ define('URL', 'http://localhost/CRUD');
 
             <a href="<?=URL.'/categories/ajout.php'?>">Catégories</a>|
 
-            <a href="<?=URL.'/annonces/parDepartement.php'?>">Régions</a>|
+            <a href="<?=URL.'/annonces/parDepartement.php'?>">Endroits</a>|
 
             <?php   
             if(isset($_SESSION['user'])){

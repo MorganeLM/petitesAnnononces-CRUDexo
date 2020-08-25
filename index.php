@@ -21,7 +21,7 @@
     <h1>CRUD Annonces</h1>
     <?php foreach($annonces as $annonce): ?>
         <div class="ads">
-            <h2><?=$annonce['title'] ?></h2>
+            <h2><a class="headlink" href="annonces/detail.php?id=<?=$annonce['id'] ?>"><?=$annonce['title'] ?></a></h2>
             <img src="uploads/<?=$annonce['featured_image'] ?>" alt="<?=$annonce['title'] ?>">
             <p>par <?=$annonce['user_name'] ?> (<?=$annonce['dpt_name'] ?>)</p>
             <p>Catégorie : <?=$annonce['cat_name'] ?></p>

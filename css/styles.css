@@ -33,11 +33,58 @@ img{
 
 .ads{
     margin: 30px;
-    border: rgba(245, 245, 245, 0.904) solid 1px;
+    border: rgba(245, 245, 245, 0.904) solid 2px;
     border-radius: 30px;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 #region{
     display: flex;
+}
+
+.deplink{
+    text-decoration: none;
+    color: crimson;
+}
+
+.headlink{
+    text-decoration: none;
+    color: orange;
+}
+
+#modif{
+    text-align: right;
+}
+
+#modif a{
+    text-decoration: none;
+    color: rgb(0, 218, 109);
+    font-weight: bold;
+}
+
+h3 a{
+    text-decoration: none;
+    color: orange;
+}
+
+.button{
+    background-color: rgb(250, 66, 33);
+    width: 15%;
+    padding: 8px;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    border: tomato 1px solid;
+}
+
+.button a{
+    color: white;
+    text-decoration: none;
+}
+
+#contact{
+    color: rgb(250, 66, 33);
+    font-weight: bold;
 }

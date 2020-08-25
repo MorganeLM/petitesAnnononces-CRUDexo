@@ -78,7 +78,7 @@
         <?php if(!empty($_GET)) : ?>
         <?php foreach($annonces as $annonce): ?>
         <div class="ads">
-            <h3><?=$annonce['title'] ?></h3>
+            <h3><a href="../annonces/detail.php?id=<?=$annonce['id'] ?>"><?=$annonce['title'] ?></a></h3>
             <img src="../uploads/<?=$annonce['featured_image'] ?>" alt="<?=$annonce['title'] ?>">
             <p>par <?=$annonce['user_name'] ?> (<?=$annonce['dpt_name'] ?>)</p>
             <p>Catégorie : <?=$annonce['cat_name'] ?></p>
